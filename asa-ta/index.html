@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="nofollow">
+	<title>Asa Ta?</title>
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/hint.min.css">
+	<meta name="description" content="A list of places to work freely in Davao City.">
+</head>
+<body>
+<div class="main">
+	<header class="header">
+		<a class="" href="#" title="Home"><h1>Asa Ta?</h1></a>
+		<h2 class="subtitle">A list of places to work freely in Davao City.</h2>
+	</header>
+	<div class="wrapper" id="list">
+		<div class="loading" id="loader"></div>
+	</div>
+	<noscript>Please enable javascript or switch to an updated browser (Firefox/Chrome) to load the website.</noscript>
+	<script id="template-item" type="text/template">
+		<article class="panel">
+			<div class="title">
+			    <div class="name">
+			        <h3 title="Shop Name">{{name}}</h3>
+			        <span class="subtitle" title="Location">{{location}}</span>
+		    	</div>
+		    	<div class="icon hint--top" aria-label="{{typelabel}}">
+			        <i class="{{type}}"></i>
+			    </div>
+		    </div>
+			<dl class="">
+			  <dt class="">Hours: </dt>
+			  <dd class="">{{hours}}</dd>
+			</dl>
+			<dl class="">
+			  <dt class="">Wifi: </dt>
+			  <dd class="">{{wifi}}</dd>
+			</dl>
+			<dl class="">
+			  <dt class="">Outlets: </dt>
+			  <dd class="">{{outlets}}</dd>
+			</dl>
+			<dl class="">
+			  <dt class="">Food: </dt>
+			  <dd class="">{{food}}</dd>
+			</dl>
+			<dl class="">
+			  <dt class="">Drinks: </dt>
+			  <dd class="">{{drinks}}</dd>
+			</dl>
+		</article>
+	</script>
+	<footer class="footer">
+		<div>
+			<small class="foot-text">Asa Ta? is a simple project. Using <a href="http://ionicons.com/">Ionicons</a> and <a href="http://kushagragour.in/lab/hint/">Hint.css.</a></small>
+			<div class="footer-links">
+				<a href="#" onclick="toggle_vis('show')" class="hint--top" aria-label="Wrong data? Add a place? Comment?">Submit</a>
+			</div>
+			<div id="show">
+				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjI7GpCByPEip9cQuRuJXpPcleCJU6Q7aaHmXcsI44Y27SDg/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+			</div>
+		</div>
+		
+	</footer>
+</div>
+<script type="text/javascript" src="js/listdata.js"></script>
+</body>
+</html>

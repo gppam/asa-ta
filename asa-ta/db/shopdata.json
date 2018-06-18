@@ -1,0 +1,57 @@
+[
+	{
+		"name": "Starbucks",
+		"type": "Cafe",
+		"address": "Annex, SM Ecoland",
+		"hours": "Daily, 7am-1:30am",
+		"wifi":  "Decent (2 Hour Limit)",
+		"outlet": "Everywhere",
+		"food": "Baked goods, Sandwiches, Pasta",
+		"bev": "Coffee, Tea, Cold Drinks",
+		"transpo": "Car, Jeep, Taxi, Tricycle"
+	},
+	{
+		"name": "Green Coffee",
+		"type": "Cafe",
+		"address": "Marfori Heights",
+		"hours": "Daily, 24 Hours",
+		"wifi": "Fast",
+		"outlet": "Everywhere",
+		"food": "Baked goods, Pasta, Rice Meal",
+		"bev": "Coffee, Tea, Cold Drinks",
+		"transpo": "Car, Taxi, Tricycle"
+	},
+	{
+		"name": "Coffee Club 101",
+		"type": "Cafe",
+		"address": "SM City Davao Annex",
+		"hours": "Mall Hours",
+		"wifi": "Fast",
+		"outlet": "Few",
+		"food": "Rice Meals, Crab, Baked goods",
+		"bev": "Coffee, Tea, Cold Drinks",
+		"transpo": "Car, Jeep, Taxi, Tricycle"
+	},
+	{
+		"name": "The BoardRoom",
+		"type": "Cafe",
+		"address": "Loyola St., Bajada",
+		"hours": "Mon-Sat, 8am-9pm",
+		"wifi": "Decent",
+		"outlet": "Everywhere",
+		"food": "Sandwiches, Pasta, Rice Meals",
+		"bev": "Coffee, Tea, Cold Drinks",
+		"transpo": "Car, Jeep, Taxi, Tricycle"
+	},
+	{
+		"name": "Le Kook",
+		"type": "Bistro",
+		"address": "Peace Avenue, Bangkal",
+		"hours": "Mon-Sat, 10am-10pm",
+		"wifi": "Fast",
+		"outlet": "Few",
+		"food": "Sandwiches, Pasta, Rice Meals",
+		"bev": "Coffee, Tea, Cold Drinks",
+		"transpo": "Car, Jeep, Taxi, Tricycle"
+	}
+]
